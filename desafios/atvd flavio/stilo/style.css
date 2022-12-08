@@ -1,0 +1,39 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: block;
+}
+img{
+    width: 40PX;
+    margin: -34px 0px 10px 86px;
+    padding: 0px 0px 0px 0px;
+    display: inline;
+}
+
+h2{
+    text-align: right;
+}
+
+main{
+    width: 150px;
+    height: 90px;
+    background-color: gray;
+    margin-left: 10px;
+    text-decoration: underline;
+    margin: auto 1025px; 
+    
+}
+main > ul{
+    margin: 10px;
+}
+main > a:hover{
+    color: red;
+}
+
+li > a {
+    color: black;
+}

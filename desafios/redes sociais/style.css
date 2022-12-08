@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Silkscreen&display=swap');
+body{
+    background-color: #3C3C3C;
+    font-size: 30px;
+    color: #d8d6d6;
+}
+img{
+    align-items:center ;
+}
+h1{
+    font-family: "Silkscreen";
+    text-align: center;
+    text-shadow: 1px 1px 2px #8c8c8cca ;
+}
+h2{
+    text-align: center;
+    font-family: "Silkscreen";
+    text-shadow: 1px 1px 2px #8c8c8cca ;
+}
+p{
+    font-family: "Fredoka One";
+    text-align: center;
+    text-shadow: 1px 1px 2px #000000ca ;
+   
+}
+a{
+    margin: auto;
+}

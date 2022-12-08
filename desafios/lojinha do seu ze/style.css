@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap');
+@font-face {
+  font-family: 'bebas';
+  src: url(../fontes/BebasNeue-Regular.otf);
+}
+body{
+    background-color: antiquewhite;
+}
+:root{
+  --fonte-barra: 'bebas';
+}
+*{
+  margin: 0px;
+  padding: 0px
+}
+h1{
+    text-align: center;
+    font-family: "Lobster", Helvetica, sans-serif;
+    font-weight: 150;
+    width: 150px;
+    text-shadow: 2px 2px 3px rgba(48, 48, 48, 0.412);
+    padding: auto;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    box-shadow: 3px 5px 23px rgba(0, 0, 0, 0.485);
+}
+p{
+    font-size: 12px;
+    text-align: center;
+    
+}
+  div{
+    box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.313);
+    margin: auto;
+    display:inline-flex;
+    background-color: aliceblue;
+    border-radius: 10px 20px 22px;
+    justify-content: space-around;
+  }
+nav{
+  
+  align-items: Padding;
+  display: flex;
+  list-style: none;
+  background-color: white;
+  width: 390px;
+  border-radius: 0px 0px 6px 0px;
+  border: 1px solid black
+  
+}
+nav > a{
+  font-size: 20px;
+  margin: 0px 0px 0px 0px;
+  padding: 4px 0px 4px 14px;
+  font-family: var(--fonte-barra);
+}
+
+header{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 240px;
+}
+
+a:hover{
+  color: red;
+}

@@ -1,0 +1,37 @@
+body{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+.cancel{
+    padding: 10px 8px;
+    width: 50px;
+    color: white;
+    background: green;
+    border: 1px solid #555;
+    border-radius: 5px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;  
+}
+.cadastro{
+    padding: 10px 8px;
+    width: 50px;
+    color: white;
+    background: green;
+    border: 1px solid #555;
+    border-radius: 5px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;  
+}
+div:hover{
+    color: black;
+    background: red;
+}
+
+div{
+    display: inline-flex;
+}
