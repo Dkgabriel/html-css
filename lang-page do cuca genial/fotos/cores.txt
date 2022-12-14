@@ -1,3 +1,0 @@
-cor fundo #101728
-
-cor botão = ff66c4 rosa #1f41bb azul
