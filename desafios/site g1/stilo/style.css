@@ -33,6 +33,12 @@ article > h1{
     font-size: 50px;
 }
 header{
+    height: 98vh;
+    
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: left top;
+    padding-bottom: 0px;
     background-color: rgb(196, 0, 0);
     
 }
