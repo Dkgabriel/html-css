@@ -1,0 +1,107 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'barlow' ;
+    src: url(../fontes/BarlowSemiCondensed-Bold.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.root{
+    --font1:'barlow Semicondensado';
+    --font2:'Fredoka One'
+    --cor1:#101728;
+    --cor2:#ff66c4;
+    --cor3:#1f41bb;
+}
+body{
+    background-color: #101728;
+}
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    background-image: linear-gradient(to top,#101728,#2c437f);
+}
+nav > a{
+    color: white;
+    font-family: 'Fredoka One', Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 25px;
+    
+}
+nav > a:hover{
+    
+    color: red;
+    background-color: #1d2846d4;
+    padding: 10px;
+    border-radius: 10px;
+}
+.principal{
+
+    
+}
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.txt{
+    margin-left: 90px;
+}
+.txt > h1{
+    color: white;
+    font-size: 150px;
+    font-family: 'barlow', Helvetica, sans-serif;
+    text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.63);
+    min-width: 700px;
+}
+.txt > h2{
+    color: white;
+    font-size: 150px;
+    margin-top: -40px;
+    margin-left: 40px;
+    font-family: 'barlow', Helvetica, sans-serif;
+    text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.63);
+    
+}
+.txt > p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px;
+    font-size: 30px;
+    text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.63);
+    
+}
+section  img{
+    width: 500px;
+    margin-right: 90px;
+}
+button{
+    color:white;
+    font-family: 'barlow', Helvetica, sans-serif;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 20px;
+    border: 0px solid;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.76);
+    box-shadow: 10px rgba(0, 0, 0, 0.711);
+    background-image: linear-gradient(to bottom,#ff66c4,#1f41bb );
+    margin-left: 150px;
+}
+.rodape{
+    background-image: linear-gradient(to bottom,#101728,#2c437f);
+    padding-top: 20px;
+}
+.rodape > p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
